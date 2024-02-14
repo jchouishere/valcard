@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/fluent/48/000000/like.png"
+      type="image/png"
+    />
+    <title>Happy Valentines Day</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&amp;display=swap"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="play()">
+   <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+  <audio autoplay loop id="playAudio">
+    <source src="./assets/mp3/song.mp3">
+  </audio>
+    <embed src="./assets/mp3/song.mp3" loop="true" autostart="true" width="2" height="0">
+    <img
+      src="https://i.imgur.com/dGOOfnA.png"
+      alt="image-top-right"
+      class="top-right-decoration"
+    />
+    <img
+      src="https://i.imgur.com/t6ffnbn.png"
+      alt="image-top-left"
+      class="top-left-decoration"
+    />
+    
+    <div class="container" onClick="play()" style="cursor: pointer;">
+      <div class="row d-flex justify-content-center">
+         
+        <div class="col-md-7 col-xs-10 col-lg-7 col-sm-12 text-center">
+        
+         <br />
+          <div class="title">
+            <div class="text-[4rem] font-bold text-center leading-tight md:text-5xl md:leading-snug bg-gradient-to-r from-green-600 via-yellow-600 to-red-600 inline-block text-transparent bg-clip-text">To My Dearest Sunflower 🌻🌻🌻</div>
+            <br />
+            <img src="https://gifdb.com/images/high/animated-bear-kiss-enngnq0gm2r405bt.webp">
+            <h2>
+              Each and every day I miss you. I miss you so much! I don’t mean to
+              sound whiny or crazy, but I do. And although I think that this day
+              is much too hyped, I can’t help but miss you when I see all the
+              cutesy things everyone else is doing today. Things would have
+              turned out very differently if you were around.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio controls loop class="music" id="audio">
+      <source src="./assets/mp3/song.mp3" type="audio/mpeg">
+   </audio>
+    <p class="sender">
+      Yours Truly, <br />
+      JC
+    </p>
+  </body>
+</html>
