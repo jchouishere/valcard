@@ -37,7 +37,7 @@ img {
 .title h1 {
   font-weight: bold;
   font-style: normal;
-  font-size: 6rem;
+  font-size: 5rem;
   margin: 32px 0;
   color: #674ea7;
 }
@@ -46,14 +46,14 @@ img {
   font-style: normal;
   margin: 32px 0;
   padding: 0;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #564861;
   line-height: 1;
 }
 
 .sender {
   color: #874562;
-  font-size: 24px;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 24px;
@@ -447,7 +447,7 @@ img,video {
 }
 
 .text-\[4rem\] {
-  font-size: 4rem
+  font-size: 6rem
 }
 
 .font-bold {
