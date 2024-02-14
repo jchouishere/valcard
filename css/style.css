@@ -37,7 +37,7 @@ img {
 .title h1 {
   font-weight: bold;
   font-style: normal;
-  font-size: 42px;
+  font-size: 72px;
   margin: 32px 0;
   color: #674ea7;
 }
@@ -46,7 +46,7 @@ img {
   font-style: normal;
   margin: 32px 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 60px;
   color: #564861;
   line-height: 1;
 }
